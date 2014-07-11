@@ -1,0 +1,106 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		7B9B7494196FC8D1004C1525 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B872F69196D86E6008D5604 /* libzeromq.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7B872F5C196D86CE008D5604;
+			remoteInfo = libzeromq;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7B872F69196D86E6008D5604 /* libzeromq.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = libzeromq.xcodeproj; path = ../../zeromq/proj.mac/libzeromq.xcodeproj; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		7B872F0A196D84C0008D5604 = {
+			isa = PBXGroup;
+			children = (
+				7B872F69196D86E6008D5604 /* libzeromq.xcodeproj */,
+			);
+			sourceTree = "<group>";
+		};
+		7B9B7491196FC8D1004C1525 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7B9B7495196FC8D1004C1525 /* libzeromq.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		7B872F0B196D84C0008D5604 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = 7B872F0E196D84C0008D5604 /* Build configuration list for PBXProject "GNE" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7B872F0A196D84C0008D5604;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 7B9B7491196FC8D1004C1525 /* Products */;
+					ProjectRef = 7B872F69196D86E6008D5604 /* libzeromq.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		7B9B7495196FC8D1004C1525 /* libzeromq.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libzeromq.a;
+			remoteRef = 7B9B7494196FC8D1004C1525 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin XCBuildConfiguration section */
+		7B872F0F196D84C0008D5604 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		7B872F10196D84C0008D5604 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7B872F0E196D84C0008D5604 /* Build configuration list for PBXProject "GNE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B872F0F196D84C0008D5604 /* Debug */,
+				7B872F10196D84C0008D5604 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7B872F0B196D84C0008D5604 /* Project object */;
+}
