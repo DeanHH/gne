@@ -857,7 +857,7 @@
 			buildSettings = {
 				EXECUTABLE_PREFIX = "";
 				PRODUCT_NAME = libzeromq;
-				USER_HEADER_SEARCH_PATHS = /Users/deanhh/DeanProject/GitHub/gne/GNE/zeromq/src;
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)../../zeromq/src";
 			};
 			name = Debug;
 		};
@@ -866,7 +866,7 @@
 			buildSettings = {
 				EXECUTABLE_PREFIX = "";
 				PRODUCT_NAME = libzeromq;
-				USER_HEADER_SEARCH_PATHS = /Users/deanhh/DeanProject/GitHub/gne/GNE/zeromq/src;
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)../../zeromq/src";
 			};
 			name = Release;
 		};
