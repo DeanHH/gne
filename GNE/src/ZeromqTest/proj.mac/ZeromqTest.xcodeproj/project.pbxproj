@@ -1,0 +1,338 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7B7B00C11976B3FD0013BA47 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7B7B00C01976B3FD0013BA47 /* main.cpp */; };
+		7BD7F8341976B66500CC855F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7BD7F8301976B64000CC855F /* main.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7B7B00BB1976B33C0013BA47 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		7BD7F8371976B66500CC855F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7B7B00B51976ACEE0013BA47 /* ZeromqTest.1 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.man; path = ZeromqTest.1; sourceTree = "<group>"; };
+		7B7B00BF1976B33C0013BA47 /* ServerTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ServerTest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B7B00C01976B3FD0013BA47 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		7BD7F8301976B64000CC855F /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = ../../Src/ClientTest/main.cpp; sourceTree = "<group>"; };
+		7BD7F83B1976B66500CC855F /* ClientTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ClientTest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7B7B00BA1976B33C0013BA47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BD7F8361976B66500CC855F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7B51B3F91976A09900EB77E7 = {
+			isa = PBXGroup;
+			children = (
+				7B7B00B11976ACEE0013BA47 /* src */,
+				7B51B4031976A09900EB77E7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7B51B4031976A09900EB77E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7B7B00BF1976B33C0013BA47 /* ServerTest */,
+				7BD7F83B1976B66500CC855F /* ClientTest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7B7B00B11976ACEE0013BA47 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				7B7B00B21976ACEE0013BA47 /* ClientTest */,
+				7B7B00B41976ACEE0013BA47 /* ServerTest */,
+				7B7B00B51976ACEE0013BA47 /* ZeromqTest.1 */,
+			);
+			name = src;
+			path = ../src;
+			sourceTree = "<group>";
+		};
+		7B7B00B21976ACEE0013BA47 /* ClientTest */ = {
+			isa = PBXGroup;
+			children = (
+				7BD7F8301976B64000CC855F /* main.cpp */,
+			);
+			path = ClientTest;
+			sourceTree = "<group>";
+		};
+		7B7B00B41976ACEE0013BA47 /* ServerTest */ = {
+			isa = PBXGroup;
+			children = (
+				7B7B00C01976B3FD0013BA47 /* main.cpp */,
+			);
+			path = ServerTest;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7B7B00B71976B33C0013BA47 /* ServerTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B7B00BC1976B33C0013BA47 /* Build configuration list for PBXNativeTarget "ServerTest" */;
+			buildPhases = (
+				7B7B00B81976B33C0013BA47 /* Sources */,
+				7B7B00BA1976B33C0013BA47 /* Frameworks */,
+				7B7B00BB1976B33C0013BA47 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ServerTest;
+			productName = ZeromqTest;
+			productReference = 7B7B00BF1976B33C0013BA47 /* ServerTest */;
+			productType = "com.apple.product-type.tool";
+		};
+		7BD7F8321976B66500CC855F /* ClientTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BD7F8381976B66500CC855F /* Build configuration list for PBXNativeTarget "ClientTest" */;
+			buildPhases = (
+				7BD7F8331976B66500CC855F /* Sources */,
+				7BD7F8361976B66500CC855F /* Frameworks */,
+				7BD7F8371976B66500CC855F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ClientTest;
+			productName = ZeromqTest;
+			productReference = 7BD7F83B1976B66500CC855F /* ClientTest */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7B51B3FA1976A09900EB77E7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = DeanHH;
+			};
+			buildConfigurationList = 7B51B3FD1976A09900EB77E7 /* Build configuration list for PBXProject "ZeromqTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7B51B3F91976A09900EB77E7;
+			productRefGroup = 7B51B4031976A09900EB77E7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7B7B00B71976B33C0013BA47 /* ServerTest */,
+				7BD7F8321976B66500CC855F /* ClientTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7B7B00B81976B33C0013BA47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B7B00C11976B3FD0013BA47 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BD7F8331976B66500CC855F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BD7F8341976B66500CC855F /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7B51B4091976A09900EB77E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)$(TARGET_NAME)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				OBJROOT = "$(SRCROOT)/Intermediate";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SYMROOT = "$(SRCROOT)/../../../bin";
+			};
+			name = Debug;
+		};
+		7B51B40A1976A09900EB77E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)$(TARGET_NAME)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				OBJROOT = "$(SRCROOT)/Intermediate";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SYMROOT = "$(SRCROOT)/../../../bin";
+			};
+			name = Release;
+		};
+		7B7B00BD1976B33C0013BA47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/..Src/ServerTest";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7B7B00BE1976B33C0013BA47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/..Src/ServerTest";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7BD7F8391976B66500CC855F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/..Src/ClientTest";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7BD7F83A1976B66500CC855F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/..Src/ClientTest";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7B51B3FD1976A09900EB77E7 /* Build configuration list for PBXProject "ZeromqTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B51B4091976A09900EB77E7 /* Debug */,
+				7B51B40A1976A09900EB77E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B7B00BC1976B33C0013BA47 /* Build configuration list for PBXNativeTarget "ServerTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B7B00BD1976B33C0013BA47 /* Debug */,
+				7B7B00BE1976B33C0013BA47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BD7F8381976B66500CC855F /* Build configuration list for PBXNativeTarget "ClientTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BD7F8391976B66500CC855F /* Debug */,
+				7BD7F83A1976B66500CC855F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7B51B3FA1976A09900EB77E7 /* Project object */;
+}

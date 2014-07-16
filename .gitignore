@@ -11,3 +11,6 @@ xcschememanagement.plist
 ._.*
 xcuserdata/
 DerivedData/
+Debug/
+Release/
+Intermediate/

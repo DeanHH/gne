@@ -7,33 +7,74 @@
 	objects = {
 
 /* Begin PBXContainerItemProxy section */
-		7B9B7494196FC8D1004C1525 /* PBXContainerItemProxy */ = {
+		7B51B4151976A09A00EB77E7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 7B872F69196D86E6008D5604 /* libzeromq.xcodeproj */;
+			containerPortal = 7B4A32B619767E8800A535AF /* libzeromq.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 7B872F5C196D86CE008D5604;
-			remoteInfo = libzeromq;
+			remoteGlobalIDString = 7B4A3366197684A400A535AF;
+			remoteInfo = libzeromq_ios;
+		};
+		7B51B4171976A09A00EB77E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B4A32B619767E8800A535AF /* libzeromq.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7B4A34101976850700A535AF;
+			remoteInfo = libzeromq_mac;
+		};
+		7B51B4191976A09A00EB77E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B4A32B619767E8800A535AF /* libzeromq.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7B51B34E19769DA900EB77E7;
+			remoteInfo = libzeromq_ios_d;
+		};
+		7B51B41B1976A09A00EB77E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B4A32B619767E8800A535AF /* libzeromq.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7B51B3F819769DB400EB77E7;
+			remoteInfo = libzeromq_mac_d;
+		};
+		7B7B00AF1976ABC60013BA47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B7B00AB1976ABC60013BA47 /* ZeromqTest.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7B51B4021976A09900EB77E7;
+			remoteInfo = ZeromqTest;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		7B872F69196D86E6008D5604 /* libzeromq.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = libzeromq.xcodeproj; path = ../../zeromq/proj.mac/libzeromq.xcodeproj; sourceTree = "<group>"; };
+		7B4A32B619767E8800A535AF /* libzeromq.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = libzeromq.xcodeproj; path = ../../src/libzeromq/proj.mac/libzeromq.xcodeproj; sourceTree = "<group>"; };
+		7B7B00AB1976ABC60013BA47 /* ZeromqTest.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ZeromqTest.xcodeproj; path = ../../src/ZeromqTest/proj.mac/ZeromqTest.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
+		7B4A32B719767E8800A535AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7B51B4161976A09A00EB77E7 /* libzeromq_ios.a */,
+				7B51B4181976A09A00EB77E7 /* libzeromq_mac.a */,
+				7B51B41A1976A09A00EB77E7 /* libzeromq_ios_d.a */,
+				7B51B41C1976A09A00EB77E7 /* libzeromq_mac_d.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7B7B00AC1976ABC60013BA47 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7B7B00B01976ABC60013BA47 /* ZeromqTest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		7B872F0A196D84C0008D5604 = {
 			isa = PBXGroup;
 			children = (
-				7B872F69196D86E6008D5604 /* libzeromq.xcodeproj */,
+				7B7B00AB1976ABC60013BA47 /* ZeromqTest.xcodeproj */,
+				7B4A32B619767E8800A535AF /* libzeromq.xcodeproj */,
 			);
-			sourceTree = "<group>";
-		};
-		7B9B7491196FC8D1004C1525 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				7B9B7495196FC8D1004C1525 /* libzeromq.a */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -55,8 +96,12 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 7B9B7491196FC8D1004C1525 /* Products */;
-					ProjectRef = 7B872F69196D86E6008D5604 /* libzeromq.xcodeproj */;
+					ProductGroup = 7B4A32B719767E8800A535AF /* Products */;
+					ProjectRef = 7B4A32B619767E8800A535AF /* libzeromq.xcodeproj */;
+				},
+				{
+					ProductGroup = 7B7B00AC1976ABC60013BA47 /* Products */;
+					ProjectRef = 7B7B00AB1976ABC60013BA47 /* ZeromqTest.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -66,11 +111,39 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		7B9B7495196FC8D1004C1525 /* libzeromq.a */ = {
+		7B51B4161976A09A00EB77E7 /* libzeromq_ios.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
-			path = libzeromq.a;
-			remoteRef = 7B9B7494196FC8D1004C1525 /* PBXContainerItemProxy */;
+			path = libzeromq_ios.a;
+			remoteRef = 7B51B4151976A09A00EB77E7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		7B51B4181976A09A00EB77E7 /* libzeromq_mac.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libzeromq_mac.a;
+			remoteRef = 7B51B4171976A09A00EB77E7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		7B51B41A1976A09A00EB77E7 /* libzeromq_ios_d.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libzeromq_ios_d.a;
+			remoteRef = 7B51B4191976A09A00EB77E7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		7B51B41C1976A09A00EB77E7 /* libzeromq_mac_d.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libzeromq_mac_d.a;
+			remoteRef = 7B51B41B1976A09A00EB77E7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		7B7B00B01976ABC60013BA47 /* ZeromqTest */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = ZeromqTest;
+			remoteRef = 7B7B00AF1976ABC60013BA47 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
